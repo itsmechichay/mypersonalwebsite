@@ -12,8 +12,6 @@
     --first-color: rgb(110, 87, 224);
     --first-color-hover: rgb(40, 91, 212);
 
-    /* --second-color: rgb(0, 201, 255);
-    --third-color: rgb(192, 166, 49); */
     --second-color: rgb(133,210,208);
     --third-color: rgb(223,142,173);
     --fourth-color:#a069c5;
@@ -188,7 +186,7 @@ nav{
 }
 .featured-text-info{
     font-size: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     color: var(--text-color-second);
 }
 .featured-text-btn{
@@ -224,6 +222,7 @@ nav{
     color: var(--first-color);
 }
 
+
 /* ----- FEATURED IMAGE BOX ----- */
 .featured-image{
     display: flex;
@@ -248,7 +247,7 @@ nav{
 @keyframes imgFloat {
     50%{
         transform: translateY(10px);
-        border-radius: 45% 55% 45% 55%;
+        border-radius: 55% 55% 55% 55%;
     }
 }
 .scroll-btn{
@@ -272,6 +271,7 @@ nav{
     font-size: 20px;
 }
 
+
 /* ----- MAIN BOX ----- */
 .section{
     padding-block: 5em;
@@ -286,8 +286,6 @@ nav{
     display: flex;
     width: 50%;
 }
-
-/* -- ## --- RESUABLE CSS -- ## -- */
 .top-header{
     text-align: center;
     margin-bottom: 3em;
@@ -307,6 +305,7 @@ h3{
     margin-bottom: 15px;
 }
 
+
 /* ----- ABOUT INFO ----- */
 .about-info{
     position: relative;
@@ -320,10 +319,6 @@ h3{
     border-radius: 20px;
     margin-bottom: 80px;
 }
-/* .about-info span{
-    font-size: 15px;
-    color: #777;
-} */
 .about-btn{
     position: absolute;
     right: 20px;
@@ -400,8 +395,8 @@ h3{
     border-radius: 50px;
 }
 
-/* ----- ABOUT / SKILLS BOX ----- */
 
+/* ----- ABOUT / SKILLS BOX ----- */
 .skills-wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -443,7 +438,6 @@ h3{
 
 
 /* ----- LEADERSHIP ----- */
-
 .lead-container {
     display: flex;
     width: 100%;
@@ -451,7 +445,6 @@ h3{
     gap: 20px;
     flex-wrap: wrap;
 }
-
 .lead-box {
     position: relative;
     display: flex;
@@ -465,26 +458,22 @@ h3{
     box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
     overflow: hidden;
 }
-
 .lead-box h3,
 .lead-box label,
 .lead-box h5,
 .lead-box p.hidden-paragraph {
     transition: color 0.4s;
 }
-
 .lead-box h3 {
     font-size: 20px;
     text-align: center;
     padding-inline: 20px;
     color: var(--first-color);
 }
-
 .lead-box label {
     font-size: 15px;
     color: var(--third-color);
 }
-
 .lead-box h5 {
     font-size: 14px;
     font-style: italic;
@@ -493,26 +482,21 @@ h3{
     color: var(--second-color);
     margin: 10px;
 }
-
 .lead-box p.hidden-paragraph {
     display: none;
     font-size: 14px;
     text-align: justify;
     color: #fff;
     padding: 10px;
-
 }
-
 .lead-box:hover {
     background: var(--second-color);
 }
-
 .lead-box:hover h3{
     position: relative;
     font-size: 14px;
     margin-bottom: -80px;
 }
-
 .lead-box:hover>h3,
 .lead-box:hover>h5,
 .lead-box:hover>label {
@@ -520,7 +504,6 @@ h3{
     z-index: 2;
     opacity: 0; /* Hide other content */
 }
-
 .lead-box:hover p.hidden-paragraph {
     display: block;
     background: var(--second-color); 
@@ -540,32 +523,27 @@ table {
     width: 100%;
     table-layout: fixed;
 }
-  
 td {
     position: relative;
     border: 5px solid transparent; 
-}
-  
+}  
 .cell-content {
     padding: 10px;
     text-align: center;
     position: relative;
 }
-
 .cell-content h3 {
     font-size: 14px;
     text-align: center;
     padding-inline: 10px;
     color: var(--first-color);
 }
-
 .cell-content h5 {
     font-size: 13px;
     font-style: italic;
     text-align: center;
     color: var(--text-color-third);
 }
-
 .cell-content h6 {
     font-size: 13px;
     color: #e3935a;
@@ -573,7 +551,6 @@ td {
     margin-top: -10px;
     margin-bottom: 5px;
 }
-
 .hidden-text {
     display: none;
     position: absolute;
@@ -588,7 +565,6 @@ td {
     font-size: 13px;
     color: #fff;
 }
-  
 .cell-content:hover .hidden-text {
     display: block;
     justify-content: center;
@@ -616,7 +592,6 @@ td {
     gap: 20px;
     flex-wrap: wrap;
 }
-
 .project-box {
     position: relative;
     display: flex;
@@ -630,7 +605,6 @@ td {
     box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
     overflow: hidden;
 }
-
 .project-box h3,
 .project-box i,
 .project-box label,
@@ -638,25 +612,21 @@ td {
 .project-box p.hidden-paragraph {
     transition: color 0.4s;
 }
-
 .project-box i {
     font-size: 40px;
     color: var(--third-color);
     margin-bottom: 20px;
 }
-
 .project-box h3 {
     font-size: 20px;
     text-align: center;
     padding-inline: 20px;
     color: var(--first-color);
 }
-
 .project-box label {
     font-size: 15px;
     color: #777;
 }
-
 .project-box h5 {
     font-size: 14px;
     font-style: italic;
@@ -665,7 +635,6 @@ td {
     color: var(--fourth-color);
     margin: 10px;
 }
-
 .project-box p.hidden-paragraph {
     display: none;
     font-size: 14px;
@@ -674,17 +643,14 @@ td {
     padding: 10px;
     margin-top: -70px;
 }
-
 .project-box:hover {
     background: var(--second-color);
 }
-
 .project-box:hover h3{
     position: relative;
     font-size: 14px;
     margin-top: -70px;
 }
-
 .project-box:hover i,
 .project-box:hover>h3,
 .project-box:hover>h5,
@@ -693,7 +659,6 @@ td {
     z-index: 2;
     opacity: 0; /* Hide other content */
 }
-
 .project-box:hover p.hidden-paragraph {
     display: block;
     background: var(--second-color); 
@@ -710,7 +675,9 @@ td {
     padding: 10px;
 } 
 .contact-button{
-    display: inline-block;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 .contact-button>.btn{
     align-items: center;
@@ -740,7 +707,6 @@ td {
     margin-top: 5px;
     pointer-events: none;
 }
-
 
 
 /* ----- FOOTER BOX ----- */
@@ -777,7 +743,6 @@ footer{
     font-size: 14px;
     margin-top: 10px;
 }
-
 
 /* ----- MEDIA QUERY == 1024px / RESPONSIVE ----- */
 @media only screen and (max-width: 1024px){
@@ -871,7 +836,7 @@ footer{
 
 /* ----- MEDIA QUERY == 540px / RESPONSIVE ----- */
 
-@media only screen and (max-width: 540px){
+@media only screen and (max-width: 600px){
     .featured-name{
         font-size: 40px;
     }
